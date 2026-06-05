@@ -164,7 +164,9 @@ spawn create
 spawn version
 # → Spawn v0.1.0
 ```
+## 📸 Preview
 
+![Spawn Preview](assets/preview.png)
 ---
 
 ## Roadmap
