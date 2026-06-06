@@ -1,4 +1,7 @@
 # Spawn
+![Python](https://img.shields.io/badge/Python-3.12+-blue)
+![Tests](https://img.shields.io/badge/Tests-Passing-brightgreen)
+![License](https://img.shields.io/badge/License-MIT-green)
 > Eliminate repetitive project setup. Go from zero to a fully structured dev environment in seconds.
 
 Spawn is a local CLI tool that automates the tedious parts of starting a new Python project — creating directories, writing boilerplate files, initializing Git, and setting up a `uv` virtual environment — all through a clean, interactive terminal interface.
@@ -22,6 +25,10 @@ Spawn collapses all of that into a single command.
 - **Smart next steps** — shows template-specific commands to get coding immediately
 - **Error handling** — clean, readable error messages when Git or uv aren't found
 
+---
+## 📸 Preview
+
+![Spawn Preview](assets/preview.png)
 ---
 
 ## Quick Start
@@ -167,10 +174,14 @@ spawn create
 spawn version
 # → Spawn v0.1.0
 ```
-## 📸 Preview
-
-![Spawn Preview](assets/preview.png)
 ---
+## Testing
+
+Run the test suite:
+---
+
+```bash
+uv run pytest
 
 ## Roadmap
 
