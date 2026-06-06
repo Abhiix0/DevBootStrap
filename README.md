@@ -183,6 +183,8 @@ Run the test suite:
 ```bash
 uv run pytest
 
+---
+
 ## Roadmap
 
 - GitHub API integration — create and push to a remote repo automatically
