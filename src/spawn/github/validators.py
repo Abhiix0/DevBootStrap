@@ -2,9 +2,9 @@ import re
 
 
 _GITHUB_PATTERNS = (
-    r"^https://github\.com/[\w.-]+/[\w.-]+/?$",
-    r"^https://github\.com/[\w.-]+/[\w.-]+\.git$",
-    r"^git@github\.com:[\w.-]+/[\w.-]+\.git$",
+    r"^https://github\.com/[a-zA-Z0-9][a-zA-Z0-9_-]*/[a-zA-Z0-9][a-zA-Z0-9_.-]*/?$",
+    r"^https://github\.com/[a-zA-Z0-9][a-zA-Z0-9_-]*/[a-zA-Z0-9][a-zA-Z0-9_.-]*\.git$",
+    r"^git@github\.com:[a-zA-Z0-9][a-zA-Z0-9_-]*/[a-zA-Z0-9][a-zA-Z0-9_.-]*\.git$",
 )
 
 
